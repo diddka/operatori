@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class hom4 {
     public static void testCommit(){
+        System.out.println("New commit: ");
 
     }
 
