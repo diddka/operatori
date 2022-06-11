@@ -10,6 +10,9 @@ import java.util.Scanner;
         //Прочетете страните от конзолата.
 
 public class hom4 {
+    public static void testCommit(){
+
+    }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
