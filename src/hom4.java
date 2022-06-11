@@ -14,13 +14,13 @@ public class hom4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a - ");
-        int a= input.nextInt();
+        int sideA= input.nextInt();
         System.out.print("Enter b - ");
-        int b = input.nextInt();
+        int sideB = input.nextInt();
         System.out.print("Enter c - ");
-        int c = input.nextInt();
+        int sideC = input.nextInt();
 
-        boolean triangle = a<(b+c) && b<(a+c) && c<(a+b);
+        boolean triangle = sideA<(sideB+sideC) && sideB<(sideA+sideC) && sideC<(sideA+sideB);
         System.out.println("Is there a triangle - " + triangle);
     }
 }
